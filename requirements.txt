@@ -1,0 +1,14 @@
+"""
+U-CE: Uncertainty-aware Cross-Entropy for Semantic Segmentation
+Authors: Steven Landgraf, Markus Hillemann, Kira Wursthorn, Markus Ulrich
+"""
+
+## Quick Start Guide
+# docker pull nvcr.io/nvidia/pytorch:23.03-py3
+# docker run --name <container_name> [--docker_options] --volume /your_path_to/U-CE:/workspace nvcr.io/nvidia/pytorch:23.03-py3 bash
+# docker attach <container_name>
+# pip install -r requirements.txt
+
+lightning
+wandb
+git+https://github.com/qubvel/segmentation_models.pytorch
